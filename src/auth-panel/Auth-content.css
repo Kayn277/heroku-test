@@ -28,6 +28,7 @@ input[type=button], select {
     margin: 8px 0;
     display: inline-block;
     font-size: larger;
+    font-size: larger;
     border: none;
 }
 

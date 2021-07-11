@@ -13,7 +13,6 @@ import AuthContent from './auth-panel/Auth-content';
 
 ReactDOM.render(
   <React.StrictMode>
-    
     <Router>
       <Navbar/>
       <Switch>
