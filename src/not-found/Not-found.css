@@ -1,0 +1,37 @@
+.Not-Found { 
+    display: block;
+    margin: auto;
+    padding: 100px 100px;
+    background-color: var(--nav-bar-color);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    color: var(--font-color);
+    
+}
+.Not-Found h1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Not-Found-Return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Not-Found-Return a{
+    word-wrap: normal;
+    color: var(--font-color);
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    font-size: larger;
+}
+
+.Not-Found-Return a:hover {
+    color: var(--highlight-color);
+}

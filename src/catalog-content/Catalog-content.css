@@ -1,0 +1,35 @@
+.Catalog-Block {
+    margin: auto;
+    width: 900px;
+    
+}
+.Title {
+    padding: 25px 25px;
+    display: inline-block;
+}
+.Title img{
+    display: inline-block;
+    width: 200px;
+    border-radius: 5px;
+}
+.Title a{
+    word-wrap: normal;
+    color: var(--font-color);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.Title a:hover {
+    color: var(--highlight-color);
+
+}
+
+.Block-Image {
+    width:200px; 
+    height:275px;
+    background-image: url("https://static.readmanga.live/uploads/pics/01/30/021_o.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}

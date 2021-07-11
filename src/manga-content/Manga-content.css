@@ -1,0 +1,104 @@
+.Manga-Content {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 0px;
+    max-width: 900px;
+}
+
+.Manga-Images {
+    display: block;
+    width: 100%;
+}
+
+
+.Pages a {
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--background-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    margin: 0 0;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: var(--font-color);
+} 
+.dropdown-content a:hover{
+    background-color: var(--highlight-color);
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+.dropdown-button {
+    background-color: var(--background-color);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+      
+}
+.dropdown:hover .dropdown-button {
+    background-color: var(--highlight-color);
+}
+
+.Commentary-Box{
+    margin-top: 50px;
+}
+
+.Commentary-Box textarea {
+    width: 100%;
+    padding: 12px 20px;
+    height: 200px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+.Commentary-Box  button {
+    background-color: var(--highlight-color);
+    color: var(--font-color);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: larger;
+    border: none;
+}
+
+.Commentaries {
+    margin-top: 25px;
+}
+.Commentaries .User-Name{
+    display: block;
+}
+.Commentaries img{
+    width: 50px;
+    width: 50px;
+    border-radius: 35px;
+}
+
+.User-Commentary {
+    border: 1px;
+    border-color: var(--nav-bar-color);
+    border-radius: 1px;
+    border-style: solid;
+    margin: 15px 0;
+    padding: 10px 10px;
+}
